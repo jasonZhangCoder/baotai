@@ -43,10 +43,13 @@
 		</javaClientGenerator>
 		
 
-		<table tableName="tb_vehicle_information" domainObjectName="VehicleInformation">
+		<!-- <table tableName="tb_vehicle_information" domainObjectName="VehicleInformation">
+			<property name="useActualColumnNames" value="false" />
+		</table> -->
+		
+		<table tableName="tb_staff" domainObjectName="Staff">
 			<property name="useActualColumnNames" value="false" />
 		</table>
-
 	</context>
 
 </generatorConfiguration>
