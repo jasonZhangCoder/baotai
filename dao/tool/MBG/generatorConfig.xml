@@ -29,16 +29,16 @@
 			<property name="forceBigDecimals" value="false" />
 		</javaTypeResolver>
 
-		<javaModelGenerator targetPackage="com.security.baotai.model" targetProject="src/main/java">
+		<javaModelGenerator targetPackage="com.security.baotai.model.personnel" targetProject="src/main/java">
 			<property name="enableSubPackages" value="false" />
 			<property name="trimStrings" value="true" />
 		</javaModelGenerator>
 
-		<sqlMapGenerator targetPackage="mybatis.sqlmap.user" targetProject="src/main/resources">
+		<sqlMapGenerator targetPackage="mybatis.sqlmap.personnel" targetProject="src/main/resources">
 			<property name="enableSubPackages" value="false" />
 		</sqlMapGenerator>
 
-		<javaClientGenerator type="XMLMAPPER" targetPackage="com.security.baotai.mapper" targetProject="src/main/java">
+		<javaClientGenerator type="XMLMAPPER" targetPackage="com.security.baotai.mapper.personnel" targetProject="src/main/java">
 			<property name="enableSubPackages" value="false" />
 		</javaClientGenerator>
 		

@@ -29,29 +29,34 @@
 			<property name="forceBigDecimals" value="false" />
 		</javaTypeResolver>
 
-		<javaModelGenerator targetPackage="com.security.baotai.model.department" targetProject="src/main/java">
+		<javaModelGenerator targetPackage="com.security.baotai.model.role" targetProject="src/main/java">
 			<property name="enableSubPackages" value="false" />
 			<property name="trimStrings" value="true" />
 		</javaModelGenerator>
 
-		<sqlMapGenerator targetPackage="mybatis.sqlmap.department" targetProject="src/main/resources">
+		<sqlMapGenerator targetPackage="mybatis.sqlmap.role" targetProject="src/main/resources">
 			<property name="enableSubPackages" value="false" />
 		</sqlMapGenerator>
 
-		<javaClientGenerator type="XMLMAPPER" targetPackage="com.security.baotai.mapper.department" targetProject="src/main/java">
+		<javaClientGenerator type="XMLMAPPER" targetPackage="com.security.baotai.mapper.role" targetProject="src/main/java">
 			<property name="enableSubPackages" value="false" />
 		</javaClientGenerator>
 		
 	
-		<table tableName="sys_office" domainObjectName="Department">
+		<table tableName="sys_role" domainObjectName="Role">
 			<property name="useActualColumnNames" value="false" />
 		</table>
-		<!-- <table tableName="tb_vehicle_information" domainObjectName="VehicleInformation">
+		<!-- 
+		<table tableName="tb_staff" domainObjectName="Staff">
+			<property name="useActualColumnNames" value="false" />
+		</table>
+		<table tableName="tb_vehicle_information" domainObjectName="VehicleInformation">
 			<property name="useActualColumnNames" value="false" />
 		</table>
 		<table tableName="tb_vehicle_record" domainObjectName="VehicleRecord">
 			<property name="useActualColumnNames" value="false" />
-		</table> -->
+		</table>
+		 -->
 
 	</context>
 
